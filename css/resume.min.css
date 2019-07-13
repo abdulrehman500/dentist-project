@@ -1,0 +1,860 @@
+/*!
+ * Start Bootstrap - Resume v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+ @import url('https://fonts.googleapis.com/css?family=Maven+Pro&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans:300i,400,400i,600i,700,700i,800,800i&display=swap');
+ body{font-family:'Open Sans',serif;padding-top:54px;color:#868e96}
+ @media (min-width:992px){body{padding-top:0;padding-left:17rem}}
+ h1,h2,h3,h4,h5,h6{font-family:'Open Sans',serif;font-weight:700;text-transform:uppercase;color:#343a40}h1{font-size:6rem;line-height:5.5rem}h2{font-size:3.5rem}
+ .subheading{text-transform:uppercase;
+       color: whitesmoke;
+       font-weight:500;font-family:'Saira Extra Condensed',serif;font-size:1.35rem}.list-social-icons a{color:#495057}
+ .list-social-icons a:hover{color:#bd5d38}.list-social-icons a .fa-lg{font-size:1.75rem}
+ .list-icons{font-size:3rem}.list-icons .list-inline-item i:hover{color:#bd5d38}
+ #sideNav .navbar-nav .nav-item .nav-link{
+       color: #171717; 
+       font-weight:600;
+       text-align: left;
+}
+ @media (min-width:992px){#sideNav{position:fixed;top:0;left:0;display:flex;flex-direction:column;width:17rem;height:100vh}
+ #sideNav .navbar-brand{display:flex;
+       margin:12px 12px 0;
+       
+       padding:.5rem}
+ #sideNav .navbar-brand .img-profile{max-width:10rem;max-height:10rem;border:.5rem solid rgba(255,255,255,.2)}
+ #sideNav .navbar-collapse{display:flex;align-items:flex-start;flex-grow:0;width:100%;margin-bottom:auto}
+ #sideNav .navbar-collapse .navbar-nav{flex-direction:column;width:100%}
+ #sideNav .navbar-collapse .navbar-nav .nav-item{display:block;
+  border-bottom:1px solid rgb(238, 238, 238);
+}
+ #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link{display:block;
+       color: #747474;
+  padding-left: 50px;
+  padding-right: 40px;
+  font-family: 'Open Sans',serif 'light';
+}}
+ 
+.shadow1 {
+       /* -moz-box-shadow:    inset 0 0 0px #b3b3b3;
+       -webkit-box-shadow: inset 0 0 0px #b3b3b3;
+       box-shadow:         inset 0 0 10px #b3b3b3; */
+       box-shadow: 3px 1px 5px 2px #dad6d6;
+}
+ .navbar-bg {
+        background-color: #ffffff !important;
+        box-shadow: #868e96;
+ }
+ 
+.resume-section{
+     /* border-bottom:1px solid #dee2e6; */
+    /* padding-top:5rem!important;
+    padding-bottom:5rem!important; */
+  
+   
+}
+.image-size {
+       width: 142px;
+}
+button a {
+       background-color: #4a6379;
+       border: none;
+       padding: 12px;
+       border-radius: 2px;
+       font-size: 15px;
+       padding-right: 32px;
+       padding-left: 32px;
+       color: white;
+     }
+.dentist-text {
+        color: #000000 !important;
+       font-size: 20px;
+       line-height: 32px;
+       padding: 10px;
+       font-weight: bolder;
+
+       
+}
+
+.display-n {
+       background-color: #6c8eab;
+       color: whitesmoke;
+       padding: 12px;
+       font-weight: normal;
+}
+.navbar-nav .nav-item a:hover {
+       color: #ffff;
+}
+.navbar-nav .nav-item :hover {
+background-color: #c5d6e6;
+color: #ffff;
+}
+.img-right img{
+     width: 300px; 
+     max-height:580px;
+     margin-top: 1px;
+     /* padding: 223px; */
+     border: 1px solid rgb(241, 241, 241);
+     
+     padding: 17px;
+}
+.img-right img:hover{
+       width: 310px; 
+       max-height:620px;   
+       transform: scale(1.0);
+       box-shadow: 3px 3px 30px #747474;
+}
+.img-border {
+      
+}
+.caring-section {
+       background-color: rgb(230, 234, 238);
+}
+.img1 {
+       width: 320px;
+       height:330px;
+}
+.middle-text p{
+ color: goldenrod;
+ font-weight: bolder;
+ letter-spacing: 6px;
+ padding-top: 32px;
+}
+.middle-text h6{
+       color: #fff !important;
+       font-style: italic;
+       letter-spacing: 2px;
+       font-size: 18px;
+      margin: 12px;
+      line-height: 22px;
+      width: 333px;
+      margin: 0 auto;
+      font-family: "Maven Pro", "Trebuchet MS", Helvetica, sans-serif;
+}
+.middle-text {
+       padding:2px;
+       padding-top: 102px;
+       height: 330px;
+       width: 433px;
+       
+       background-color: rgb(108, 142, 171);
+}
+.looking-text  button{
+       background-color: #4a6379;
+       
+       border: none;
+       padding: 12px;
+       border-radius: 2px;
+       font-size: 15px;
+       padding-right: 32px;
+       padding-left: 32px;
+       color: white;
+}
+.looking-text .border-text .inner-text21{
+ margin: 
+}
+.looking-text .border-text{
+   border: 1px solid rgb(233, 229, 229);
+   border-top: 3px solid #000;
+   margin-right: 32px;
+   margin-left: 32px;
+}
+.looking-text {
+       background-color: rgb(255, 255, 255);
+       
+
+}
+.parallax-back {
+       background-image: url("../img/family-dentistry-slide.jpg");
+    
+
+       /* Set a specific height */
+       height: 800px; 
+        width: 100%;
+       /* Create the parallax scrolling effect */
+       background-attachment: fixed;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+}
+.parallax-back .parallax-section .heading2 {
+      color: #000000;
+       z-index: 2;
+}
+.parallax-back .parallax-section {
+       /* background-color: #495057; */
+       height: 800px;
+       width: 100%;
+       background-color:rgb(214, 214, 214);
+       opacity:0.8;
+       z-index: -1;
+       line-height: 12px;
+}
+.para-text {
+       font-size: 22px;
+       line-height: 29px;
+       color: #000;
+       z-index: 2; 
+       font-weight: normal; 
+}
+.card img:hover{
+       transform: scale(1.06); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+}
+.card img{
+    /* box-shadow: 2px 2px 20px 10px rgb(223, 219, 219); */
+ 
+  
+  transition: transform .5s; /* Animation */
+  width: 300px;
+  height: 230px;
+  margin: 0 auto;
+}
+.footer-text p a{
+color: whitesmoke;
+}
+
+.carousel {
+     /* The image used */
+     /* background-image: url("../img/3.jpg"); */
+     
+     /* Set a specific height */
+     /* height: 500px;  */
+   
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+   
+}
+.carousel-control-next-icon ,.carousel-control-prev-icon {
+  
+      /* visibility: hidden !important; */
+}
+.carousel-control-prev-icon:hover {
+       width:45px !important;
+       height:45px !important;
+       background-color:rgb(24, 23, 23);opacity:0.8;
+       padding: 12px 60px;
+       border-radius: 5px;
+
+     
+}
+.carousel-control-next-icon:hover {
+       width:45px !important;
+       height:45px !important;
+       background-color:rgb(24, 23, 23);opacity:0.8;
+       padding: 12px 60px;
+       border-radius: 5px;
+
+     
+} 
+.inner-text2 {
+      margin-top: 12px;
+      width: 844px;
+      display: block;
+      padding: 8px;
+      margin: 0 auto;
+      padding-top: 12px;
+      margin-top: 12px; 
+      margin-bottom: 12px;
+      color: rgb(255, 255, 255);
+      font-size: 25px;
+      font-family: 'Open Sans', sans-serif;
+      font-style: italic;
+ 
+}
+.inner-text1 {
+       width: 900px;
+       margin:auto;
+       padding: 12px;
+       font-family:'Open Sans', sans-serif;
+       font-size: 52px;
+       line-height: 62px;
+       color: #ffff;
+     z-index: 2;
+}
+.inner-text {
+      
+        background-color:rgb(24, 23, 23);
+        opacity:0.5;
+       
+        
+       
+}
+.heading {
+       color: #ffff;
+          z-index: 2;
+          max-width: 900px;
+       margin:auto;
+       padding: 12px;
+       font-family:'Open Sans', sans-serif;
+       font-size: 52px;
+       line-height: 62px;
+      }
+      
+      .center-text {
+          z-index: -1;
+          max-width: 900px;
+          padding-top: 3px;
+          background-color: rgba(0,0,0, 0.4);
+          width: 891px;}
+.heading1 {
+       color: #ffff;
+          z-index: 2;
+          max-width: 650px;
+       margin: 0 auto;
+       padding: 2px;
+       font-family:'Open Sans', sans-serif;
+       font-style: italic;
+       font-size: 22px;
+       line-height: 22px;
+      }
+      
+      .center-text1 {
+          z-index: -1;
+          max-width: 690px;
+          margin: 0 auto;
+          padding-top:3px;
+          padding: 6px;
+          background-color: rgba(0,0,0, 0.4);
+          width: 891px;
+      }
+.btn1:hover{
+       background-color: #161615;
+}
+.button-inner .btn1{
+padding: 18px;
+font-family: 'Maven Pro', Arial, Helvetica, sans-serif;
+color: #ffffff;
+ background-color:#ceb569;
+}
+.btn1 {
+width: 433px;
+margin: 0  auto;
+border-radius: none !important;
+font-family: 'Maven Pro', sans-serif;
+}
+.carousel-caption {
+       bottom: 320px !important;
+}
+
+.contact-us {
+       background-image: url("../img/maps2.png");
+
+      
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.map-container-section {
+       overflow:hidden;
+       padding-bottom:56.25%;
+       position:relative;
+       height:0;
+     }
+     .map-container-section iframe {
+       left:0;
+       top:0;
+       height:100%;
+       width:100%;
+       position:absolute;
+     }
+.navbar-toggler-icon {
+       background-color: #868e96;
+  
+       padding: 12px;
+      
+}
+.navbar-dark .navbar-toggler{
+       border: 2px solid rgb(224, 218, 218);
+}
+.navbar-toggler {
+      
+}
+#education{
+         /* The image used */
+     background-image: url("../img/location.jpg");
+     
+     /* Set a specific height */
+     height: 500px; 
+   
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+#overlay {
+       
+       display: none;
+       width: 100%;
+       height: 100%;
+       top: 0;
+       left: 0;
+       right: 0;
+       bottom: 0;
+       background-color: rgba(235, 147, 147, 0.5);
+       z-index: 2;
+       cursor: pointer;
+     }
+.main-text1 {
+ /* color: white; */
+}
+
+ .card12 {
+       width: 30%;
+        margin: 12px;
+       border:1px solid white;
+ }
+ section.resume-section .resume-item .resume-date{min-width:none}
+ @media (min-width:768px){section.resume-section{min-height:100vh;
+       background-color: #fff;
+    
+}
+ section.resume-section .resume-item .resume-date{min-width:18rem}}
+ @media (min-width:992px){section.resume-section
+       /* padding-top:3rem!important;padding-bottom:3rem!important; */
+}
+}
+ .bg-primary{background-color:#2798d2!important}.text-primary{color:#2798d2!important}
+ a{color:white}
+ a:active,a:focus,a:hover{color:white}
+
+ .social-media {
+    padding: 13px 52px 12px;
+  }
+  .contact-text{
+       padding: 13px 2px 12px;     
+  }
+  .navbar-brand1 {
+    margin:1px;
+    height: 30px;
+  }
+  
+ section .resume-section {
+   
+  }
+ .social-feed .feed-left img {
+        height: 520px;
+        width: 330px;
+ }
+ .social-feed .feed-right img {
+        height: 520px;
+ }
+ #slides{
+    position: relative;
+    height: 150px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+  }
+  
+  .slide1{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+  
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+  }
+  
+  .showing{
+    opacity: 1;
+    z-index: 2;
+  }
+  .footer-copyright {
+         background-color: rgb(160, 160, 160);
+  }
+  .page-footer {
+         background-color: rgb(206, 206, 206);
+  }
+  .fusion-button-text-right {
+         background-color:#6c8eab;
+         color: #ffffff;
+         border-radius: 1px;
+         font-size: 19px;
+         font-weight: bolder;
+        margin-left: 30px;
+         width: 200px;
+  }
+     
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .social-feed .feed-left img {
+        height: 520px;
+        width: 330px;
+ }
+ .social-feed .feed-right img {
+        height: 520px;
+        width: 330px;
+ }
+
+ .display-n span {
+       display: none;
+       width: 0px;
+}
+.para-text {
+       padding-bottom: 12px;
+       padding-top: 12px;
+            width: 300px;
+            margin: auto;
+        }
+  } 
+  @media only screen and (max-width: 568px) and (min-width:320px)  {
+       .padding-top-small {
+              padding-top: 20px;
+       }
+       .display-n {
+              display: none;
+       }
+       button a {
+              font-size: 9px;
+       }
+       .parallax-back {
+             
+              width: 100%;}
+              .para-text {
+                     padding-bottom: 12px;
+                     padding-top: 12px;
+                          width: 300px;
+                          margin: auto;
+                      }
+                      .img-right img:hover {
+                            width: 0px;
+                            max-height: 0px;
+                            transform: scale(0);
+                            box-shadow: 0px 0px 0px #747474;
+                        }
+  }
+  @media only screen and (max-width: 400px) and (min-width:375px)  {
+     
+       .img-right img:hover {
+              width: 0px;
+              max-height: 0px;
+              transform: scale(0);
+              box-shadow: 0px 0px 0px #747474;
+          }
+       .display-n {
+              display: none;
+          }
+          button a {
+              font-size: 12px;
+          }
+          .img-right img {
+              width: 316px;
+             
+          }
+          .img1 {
+              width: 374px;
+              height: 330px;
+          }
+          .para-text {
+         padding-bottom: 12px;
+         padding-top: 12px;
+              width: 300px;
+              margin: auto;
+          }
+  }
+  @media only screen and (max-width: 640px) and (min-width: 360px)  {
+       .img-right img:hover {
+              width: 0px;
+              max-height: 0px;
+              transform: scale(0);
+              box-shadow: 0px 0px 0px #747474;
+          }
+       .img1 {
+              width: 100%;
+              height: 330px;
+          }
+          .display-n {
+              display: none;
+          }
+          button a {
+                 font-size: 12px;
+          }
+          .para-text {
+              padding-bottom: 12px;
+              padding-top: 12px;
+                   width: 300px;
+                   margin: auto;
+               }
+               .padding-top-small {
+                     padding-top: 20px;
+              }
+  }
+  @media only screen and (max-width: 731px) and (min-width: 411px)  {
+       .img1 {
+              width: 410px;
+              height: 330px;
+          }
+          .para-text {
+              padding-bottom: 12px;
+              padding-top: 12px;
+                   width: 300px;
+                   margin: auto;
+               }
+               .padding-top-small {
+                     padding-top: 20px;
+              }
+  }
+  @media only screen and (max-width: 600px) and (min-width: 400px)  {
+         
+  .parallax-back {
+       background-image: url(../img/family-dentistry-slide.jpg);
+       height: 1485px;
+       width: 100%;
+        position: relative;
+        margin: auto;
+        
+   }
+   .parallax-back .parallax-section {
+       /* background-color: #495057; */
+       height: 1480px;
+}
+   
+   .img-right img {
+       width: 316px;
+      
+   }
+   .display-n {
+       display: none;
+   }
+   .aligncenter {
+          margin: auto !important;
+   }
+   .img1 {
+       width: 410px;
+       height: 330px;
+   }
+   .parallax-back .parallax-section {
+       /* background-color: #495057; */
+       height: 1485px;
+       background-color: rgb(214, 214, 214);
+       opacity: 0.8;
+       z-index: -1;
+       line-height: 12px;
+   }
+   button a {
+       font-size: 12px;
+   }
+   .img1 {
+       width: 410px;
+       height: 330px;
+   }
+   .para-text {
+       padding-bottom: 12px;
+       padding-top: 12px;
+            width: 300px;
+            margin: auto;
+        }
+        .padding-top-small {
+              padding-top: 20px;
+       }
+  }
+  @media only screen and (max-width:  768px) and (min-width: 979px)  {  
+       .img-right img:hover {
+              width: 0px;
+              max-height: 0px;
+              transform: scale(0.0);
+              box-shadow: 0px 0px 0px #747474;
+          }
+          .img-right img:hover {
+              width: 0px;
+       }
+
+       .display-n {
+              display: none;
+       }
+       /* a .navbar-brand {
+              width: 50% !important;
+       } */
+       a.navbar-brand.js-scroll-trigger {
+              width: 50% !important;
+          }
+       .img-right img {
+              display: none;
+          }
+          .parallax-back {
+              background-image: url(../img/family-dentistry-slide.jpg);
+              height: 1010px;
+              background-attachment: fixed;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+          }
+          .img1 {
+              width: 1415px;
+              height: 1330px;
+          }
+          button a {
+                  font-size: 12px;
+              }
+              .img-right img {
+                     width: 316px;
+                    
+                 }
+                 .img1 {
+    width: 356px;
+    height: 330px;
+
+}
+.para-text {
+       padding-bottom: 12px;
+       padding-top: 12px;
+            width: 300px;
+            margin: auto;
+        }
+        .padding-top-small {
+              padding-top: 20px;
+       }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {  
+
+  .padding-top-small {
+         padding-top: 20px;
+  }
+       .img-right img {
+              /* display: none; */
+          }
+          .test-display {
+                 display: none;
+          }
+          section.resume-section {
+              min-height: 72vh;
+              background-color: #fff;
+          }
+          .img-right img {
+              width: 238px;
+              max-height: 580px;
+              margin-top: 1px;
+              /* padding: 223px; */
+              border: 1px solid rgb(241, 241, 241);
+              padding: 17px;
+          }
+          .img-right img:hover {
+              width: 238px;
+              max-height: 580px;
+              margin-top: 1px;
+              /* padding: 223px; */
+              border: 1px solid rgb(241, 241, 241);
+              padding: 17px;
+          }
+          .parallax-back {
+              
+              height: 1210px;
+            
+          }
+          .parallax-back .parallax-section {
+              /* background-color: #495057; */
+              height: 1210px;
+              background-color: rgb(214, 214, 214);
+              opacity: 0.8;
+              z-index: -1;
+              line-height: 12px;
+          }
+          .img1 {
+              width: 415px;
+              height: 330px;
+          }
+         
+.card12 {
+    width: 52rem;
+    margin: 12px;
+    border: 1px solid white;
+}       
+.dentist-text {
+       color: #000000 !important;
+       font-size: 20px;
+       line-height: 32px;
+       padding: 10px;
+       padding-left: 22px;
+       font-weight: bolder;
+       width: 90%;
+   }
+ 
+   iframe {
+       /* display: none; */
+   }
+   .display-n {
+       display: none;
+}
+.center-text {
+       z-index: -1;
+       max-width: 900px;
+       padding-top: 3px;
+       background-color: rgba(0,0,0, 0.4);
+       width: 744px;
+   }
+   .center-text1 {
+       z-index: -1;
+       max-width: 743px;
+       margin: 0 auto;
+       padding-top: 3px;
+       padding: 6px;
+       background-color: rgba(0,0,0, 0.4);
+       width: 1054px;
+   }
+   .button-inner .btn1 {
+       
+       /* margin: auto; */
+       width: 100% !important;
+       margin-left: 92px !important;
+   }
+   .heading {
+    
+    padding: 12px;
+    
+    font-size: 39px;
+    margin: auto;
+}
+.parallax-back {
+       height: 864px;
+   }
+   .parallax-back .parallax-section  {
+       height: 864px;
+   }
+   .img1 {
+       width: 720px;
+       height: 490px;
+   }
+   .icon-css { 
+   /* display: none; */
+   }
+   .middle-text {
+       padding: 2px;
+       padding-top: 102px;
+       height: 330px;
+       width: 725px;
+       background-color: rgb(108, 142, 171);
+   }
+   .carousel-caption {
+      
+       bottom: 120px !important;
+       left: 12px;
+}
+button a {
+       font-size: 12px;
+   }
+   .para-text {
+       padding-bottom: 12px;
+       padding-top: 12px;
+            width: 100%;
+            margin: auto;
+        }
+     }
+     
+            
+     
+  
+
